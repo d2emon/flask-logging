@@ -21,8 +21,9 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 with open(path.join(here, 'VERSION'), encoding='utf-8') as f:
     version = f.read().strip()
 
-with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
-    requirements = f.read().splitlines()
+# with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
+#     requirements = f.read().splitlines()
+requirements = []
 
 build_exe_options = {
     "includes": [
